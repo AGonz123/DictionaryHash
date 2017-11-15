@@ -9,7 +9,8 @@ package dictionaryhash;
  *
  * @author Andrew
  */
-public class DictionaryHash {
+public class DictionaryHash<K, V> implements DictionaryInterface<K, V> {
+
 
     /**
      * @param args the command line arguments
