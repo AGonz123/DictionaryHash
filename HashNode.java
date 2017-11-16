@@ -7,6 +7,7 @@ public class HashNode<K, V> {
 
 	public HashNode() {
 		next = null;
+		flag = true;
 	}
 
 	public void setKey(K newKey) {
@@ -32,7 +33,8 @@ public class HashNode<K, V> {
 	public V getValue() {
 		return value;
 	}
-
+	//true if current
+	//false if removed
 	public boolean getFlag() {
 		return flag;
 	}
